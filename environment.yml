@@ -12,4 +12,6 @@ dependencies:
     - spacy
     - setfit
     - jupyterlab
+    - ipywidgets
+    - itables
     - altair
