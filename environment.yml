@@ -1,0 +1,15 @@
+channels:
+  - conda-forge
+dependencies:
+  # Python
+  - pip>=22.2
+  - python==3.10.7
+  - setuptools>=65
+  - wheel>=0.37.1
+  # Extras
+  - just
+  - pip:
+    - spacy
+    - setfit
+    - jupyterlab
+    - altair
