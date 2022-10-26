@@ -15,7 +15,7 @@ jobs:
     # Create and Activate Conda Env
     - uses: conda-incubator/setup-miniconda@v2
       with:
-        activate-environment: cdp-data-interactive
+        activate-environment: mining-ack
         environment-file: environment.yml
 
     - name: Set up Quarto
@@ -36,4 +36,4 @@ jobs:
     - name: Publish Book
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        folder: ./
+        folder: _build/
